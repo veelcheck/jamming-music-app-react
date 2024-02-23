@@ -1,4 +1,4 @@
-import Track from "../Track/Track.jsx";
+import Track from '../Track/Track.jsx';
 import './TrackList.css';
 
 
@@ -13,7 +13,7 @@ function TrackList({ tracks, handleTrack, setPlaylistTracks }) {
             title={track.name} 
             album={track.album.name} 
             published={(track.album.release_date).slice(0, 4)}
-            actionSymbol="+"
+            actionSymbol='+'
             handleTrack={handleTrack}
             setPlaylistTracks={setPlaylistTracks}
           />

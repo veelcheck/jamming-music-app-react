@@ -117,7 +117,7 @@ function App() {
   return (
     <>
     <div className='App' role='application'>
-      <h1>Jammming<br></br><span className='subheading'>music spot-on</span></h1>
+      <h1>Jamming<br></br><span className='subheading'>music spot-on</span></h1>
 
       {accessToken ? (
         <>

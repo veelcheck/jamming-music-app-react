@@ -28,13 +28,13 @@ function PlayList({ tracks, handleTrack, saveToSpotify, buttonText, setPlaylistT
     localStorage.removeItem('playListTracks');
   }
   return (
-    <div className='play-list' role="region" aria-labelledby="playlistLabel">
+    <div className='play-list' role='region' aria-labelledby='playlistLabel'>
       {tracks.length > 0 && (
         <div className='wrapper'>
-        <label className='sr-only' id="playlistLabel" htmlFor="playlist-name"></label>
+        <label className='sr-only' id='playlistLabel' htmlFor='playlist-name'></label>
         <input
-          id="playlist-name"
-          placeholder="Your list"
+          id='playlist-name'
+          placeholder='Your list'
           value={playListName}
           onChange={({ target }) => setPlayListName(target.value)}
         />
@@ -51,7 +51,7 @@ function PlayList({ tracks, handleTrack, saveToSpotify, buttonText, setPlaylistT
                 title={track.name} 
                 album={track.album.name} 
                 published={(track.album.release_date).slice(0, 4)}
-                actionSymbol="-"
+                actionSymbol='-'
                 handleTrack={handleTrack}
                 setPlaylistTracks={setPlaylistTracks}
               />
@@ -69,7 +69,7 @@ function PlayList({ tracks, handleTrack, saveToSpotify, buttonText, setPlaylistT
       {tracks.length > 0 && (
         <button 
           onClick={clearPlaylist}
-          aria-label="Clear Playlist"
+          aria-label='Clear Playlist'
         >Clear Playlist</button>
       )}
     </div>

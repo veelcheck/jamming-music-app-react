@@ -10,7 +10,7 @@ function SearchResults({ tracks, handleTrack, searching, setPlaylistTracks, erro
         <h2 aria-busy='true'>Searching high and low...</h2>
       ) : (
         errorMessage ? <Error errorMessage={errorMessage}/> : (
-          tracks.length === 0 ? (<h2>Go to search box, and search away! <ArrowUp className='arrow' fontSize="large"/></h2>) : (<>
+          tracks.length === 0 ? (<h2>Go to the search box, and search away! <ArrowUp className='arrow' fontSize="large"/></h2>) : (<>
             <h2>We found these for you:</h2>
             <ul className='search-results'>
               <TrackList 
