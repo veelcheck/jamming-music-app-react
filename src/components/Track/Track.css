@@ -1,0 +1,21 @@
+.individual-track {
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto 15%;
+  align-items: center;
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.action-symbol {
+  font-size: 2rem;
+  padding: .25em;
+  color: var(--button-light-green);
+  cursor: pointer;
+}
+

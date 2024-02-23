@@ -1,0 +1,35 @@
+footer {
+  background-color: var(--main-blue);
+  color: var(--button-light-green);
+  padding-block: .5rem;
+}
+
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.box {
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: right;
+  padding-block: 1rem;
+  padding-right: 1rem;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+  .hidden {
+    display: none;
+ }
+ 
+  footer {
+    background-color: var(--button-light-green);
+    color: black;
+ }
+
+ .box {
+  padding-block: 0;
+ }
+}

@@ -1,0 +1,24 @@
+.search-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.input {
+  height: 2rem;
+  background-color: var(--main-nude);
+  color: black;
+  font-size: 1rem;
+  padding-inline: 1em;
+  border-radius: 10px;
+  min-width: 0;
+  border: 2px solid var(--button-dark-green);
+}
+
+.search-button {
+  width: 100px;
+}
+
+

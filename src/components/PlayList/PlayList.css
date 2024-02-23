@@ -1,0 +1,41 @@
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  padding-bottom: .5em;
+  margin-top: 19.92px;
+  margin-inline: 1em;
+  padding-bottom: 0;
+  text-align: left;
+}
+
+.play-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 6px;
+  padding-bottom: 2rem;
+  
+  @media (min-width: 600px) {
+    width: 50%;
+    font-size: 0.9rem;
+  }
+}
+.playlist-track {
+  line-height: 0.9rem;
+}
+
+#playlist-name {
+  background-color: transparent;
+  color: var(--main-nude);
+  height: 24px;
+  font-size: 1.5rem;
+  border: none;
+  min-width: 0;
+  @media (min-width: 900px) {
+    width: 100%;
+  }
+}
+
+
