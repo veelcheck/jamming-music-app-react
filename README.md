@@ -29,3 +29,5 @@ The code showcases a solid understanding of React, asynchronous operations using
 ## Acknowledgments
 - Codecademy for the initial iproject structure and a sneak peek at a solution file, which greatly supported my mental health while figuring out the logic for a refresh token.
 - The developer community on forums and YouTube for valuable insights and solutions.
+
+![screenshot-full-screen](src/img/View1.jpg)
