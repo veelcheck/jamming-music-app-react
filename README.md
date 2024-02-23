@@ -1,8 +1,8 @@
-# Jammming - Music Spot-On
+# Jamming - Music Spot-On
 This project started as a Codecademy exercise, and I've put in significant effort to enhance its functionality by exploring solutions on forums, watching tutorials on YouTube, and seeking assistance from ChatGPT.
 
 ## Project Overview
-Jammming is a web application that allows users to search for their favourite artists, view their top tracks, and create playlists. The application leverages the Spotify API for artist and track information.
+Jamming is a web application build in React that allows users to search for their favourite artists, view their top tracks, and create playlists. The application leverages the Spotify API for artist and track information.
 
 ## Features
 - **Spotify Integration**: Utilizes the Spotify API to fetch artist details and top tracks.
